@@ -29,10 +29,16 @@ e cobrança. Regras de dinheiro testadas, permissões por papel no banco.
 ### [Norte](https://github.com/joaolucasralmeida/norte-app) · finanças pessoais no iPhone, com assistente de IA
 **[▶ Abrir o app](https://joaolucasralmeida.github.io/norte-app/)**
 
-App instalável (PWA) que funciona offline, sincroniza entre aparelhos e tem um
-chat com **Gemini** que pesquisa preços na web por chamada de ferramentas, com
-tratamento do que o modelo devolve como conteúdo não confiável.
-JavaScript puro · Supabase · Gemini (tool calling) · Tavily · Cloudflare Workers
+App instalável (PWA) que funciona offline e sincroniza entre aparelhos. O
+**[assistente de IA](https://github.com/joaolucasralmeida/norte-app/tree/main/gemini-worker)**
+é um agente na **API do Gemini**, sem SDK: pesquisa o preço na web, cita as fontes
+e propõe a meta de compra para o usuário confirmar.
+- Loop de *function calling* com 3 ferramentas, resposta em streaming (SSE)
+- Troca automática de modelo quando um está lotado (`503`), sem queimar cota no `429`
+- Prompt com regras verificáveis e defesa contra injeção de prompt vinda das páginas lidas
+- 10 testes automáticos que simulam as APIs do Gemini e da Tavily
+
+JavaScript puro · Supabase · Gemini API (function calling) · Tavily · Cloudflare Workers
 
 ### No trabalho · controle de estoque e patrimônio da TI
 Sistema interno da manutenção de TI onde trabalho: catálogo, bens patrimoniados,
