@@ -12,6 +12,10 @@ Os projetos abaixo foram feitos do zero, em poucos dias cada, e estão publicado
 ## Projetos
 
 ### [Portal Duo](https://github.com/joaolucasralmeida/duo-portal-clientes) · portal de clientes para agência de marketing
+**[▶ Testar a demonstração](https://joaolucasralmeida.github.io/duo-portal-clientes/)** (dados fictícios)
+
+[![Calendário do Portal Duo](https://raw.githubusercontent.com/joaolucasralmeida/duo-portal-clientes/main/docs/calendario.png)](https://joaolucasralmeida.github.io/duo-portal-clientes/)
+
 Calendário de posts, aprovação de conteúdo com limite de alterações, upload de
 vídeo, métricas do Instagram e contratos. Avisa o cliente no WhatsApp quando sai
 conteúdo novo.
@@ -23,6 +27,8 @@ e cobrança. Regras de dinheiro testadas, permissões por papel no banco.
 **~1 semana · 30 testes unitários + 47 verificações de aceitação** · Next.js 16 · TypeScript · Supabase · Vitest
 
 ### [Norte](https://github.com/joaolucasralmeida/norte-app) · finanças pessoais no iPhone, com assistente de IA
+**[▶ Abrir o app](https://joaolucasralmeida.github.io/norte-app/)**
+
 App instalável (PWA) que funciona offline, sincroniza entre aparelhos e tem um
 chat com **Gemini** que pesquisa preços na web por chamada de ferramentas, com
 tratamento do que o modelo devolve como conteúdo não confiável.
