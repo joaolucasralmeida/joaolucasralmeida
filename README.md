@@ -5,7 +5,7 @@ produtos de ponta a ponta usando IA como alavanca: eu defino o problema, as
 regras e o desenho, e oriento agentes de código (Claude Code) a implementar,
 testar e documentar.
 
-Os projetos abaixo foram feitos do zero, em dias, e estão publicados e em uso.
+Os projetos abaixo foram feitos do zero, em poucos dias cada, e estão publicados.
 
 ---
 
