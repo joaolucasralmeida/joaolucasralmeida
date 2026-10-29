@@ -34,6 +34,13 @@ chat com **Gemini** que pesquisa preços na web por chamada de ferramentas, com
 tratamento do que o modelo devolve como conteúdo não confiável.
 JavaScript puro · Supabase · Gemini (tool calling) · Tavily · Cloudflare Workers
 
+### No trabalho · controle de estoque e patrimônio da TI
+Sistema interno da manutenção de TI onde trabalho: catálogo, bens patrimoniados,
+ordem de serviço, termo de entrega e manutenção preventiva, com integração ao GLPI
+para abrir chamados. Node.js sem dependências (a rede é fechada), 71 rotas,
+18 tabelas e 12 verificações automáticas. Em migração para Oracle.
+*Código interno, não publicado.*
+
 ---
 
 ## Como eu trabalho com IA
@@ -46,6 +53,17 @@ JavaScript puro · Supabase · Gemini (tool calling) · Tavily · Cloudflare Wor
   pedir mudanças ao agente e verificar que nada quebrou.
 - **Commits pequenos e legíveis**, para revisar e desfazer cada passo.
 
+## Formação e estudos
+
+- **Sistemas de Informação**: Multivix (em andamento; antes no Ifes, 2023–2025)
+- **Santander Coders 2023.2**: trilha Back-end
+- **Estudando agora** (meta: janeiro de 2027):
+  - .NET: API completa com DDD, SOLID, testes, Docker, Azure DevOps e deploy no Azure (60h)
+  - Angular (154h), com o plano de consumir a API do curso de .NET num projeto full-stack
+- C# para iniciantes (Udemy) · HTML e CSS3 (Curso em Vídeo) · Latinoware 2023
+
 ## Ferramentas
 
-Claude Code · Gemini API · Supabase · React · Next.js · TypeScript · SQL/PostgreSQL · Oracle · C#/.NET (estudando) · Cloudflare
+Claude Code · Gemini API · Supabase · Node.js · React · Next.js · TypeScript · SQL · PostgreSQL · Oracle · GLPI · Git · Cloudflare · C#/.NET e Angular (estudando)
+
+[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-lucas-almeida-058751263/)
